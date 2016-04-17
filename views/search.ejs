@@ -22,8 +22,8 @@
 
 
   <!-- Extras -->
-  <link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
-  <link rel="stylesheet" type="text/css" href="assets/extras/lightbox.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/jquery.popdown.css">
+
 
 
   <!-- jQuery Load -->
@@ -34,6 +34,12 @@
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
+
+  <style>
+    .search {
+      padding: 20px;
+    }
+  </style>
 
 </head>
 
@@ -110,6 +116,12 @@
 
   <!-- All JS plugin Triggers -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/jquery.popdown.min.js" /></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.popdown').popdown();
+    });
+  </script>
 
 
 
