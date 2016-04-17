@@ -10,7 +10,7 @@ module.exports = function getGif(req, res, next) {
   var options = { method: 'GET',
   url: 'http://apilayer.net/api/capture',
   qs:
-   { access_key: '897b8d237f9568d8e1956bd808b8c663',
+   { access_key: 'd0a352a5e8f6f725b269e2e9ccf78602',
      url: 'https://www.youtube.com/watch?v=' + id,
      start: start.toString(),
      end: end }
