@@ -1,13 +1,24 @@
+'use strict';
 var express = require('express');
 var path = require('path');
-var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose');
+var configDB = require('./config/database.js');
+var session = require('express-session');
+var passport = require('passport');
 
 var routes = require('./routes/index');
 
 var app = express();
+app.use(session({
+  secret: 'tubeyou'
+})); // secret key
+app.use(passport.initialize());
+app.use(passport.session());
+
+mongoose.connect(configDB.url);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -30,6 +41,7 @@ app.use(function(req, res, next) {
   next(err);
 });
 
+require('./config/passport')(passport); 				// passport configuration
 // error handlers
 
 // development error handler
@@ -46,13 +58,6 @@ if (app.get('env') === 'development') {
 
 // production error handler
 // no stacktraces leaked to user
-app.use(function(err, req, res, next) {
-  res.status(err.status || 500);
-  res.render('error', {
-    message: err.message,
-    error: {}
-  });
-});
 
 
 module.exports = app;
