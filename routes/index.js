@@ -11,6 +11,9 @@ var app = require('../app.js');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+  if(req.isAuthenticated())
+    res.redirect('/search');
+
   res.render('index');
 });
 router.get('/search', ensureAuthenticated, search);

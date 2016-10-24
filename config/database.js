@@ -2,6 +2,6 @@
 
 module.exports = {
 
-    'url' : 'mongodb://localhost:27017/tube'
+    'url' : 'mongodb://u2g1qrqrjhzejuo:ks6RZWHHs8kegjql5vNO@bn74ck0cajef0ed-mongodb.services.clever-cloud.com:27017/bn74ck0cajef0ed'
 
 };
