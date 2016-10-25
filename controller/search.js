@@ -2,7 +2,7 @@
 const request = require('request');
 
 module.exports = function search(req, res, next) {
-  const query = encodeURIComponent(req.query.q);
+  const query = req.query.q;
   var options = {
     method: 'GET',
     url: 'https://www.googleapis.com/youtube/v3/search',
