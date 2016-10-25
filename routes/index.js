@@ -42,7 +42,7 @@ module.exports = router;
 // ensure that user is authenticated else redirect
 function ensureAuthenticated(req, res, next) {
 
-  if(req.isAuthenticated())
+  //if(req.isAuthenticated())
     return next();
 
   res.redirect('/');
