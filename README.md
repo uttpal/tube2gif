@@ -18,7 +18,7 @@
 	</a>
   <h1>tube2gif</h1>
   <p>
-    tube2gif is a web-based Youtube to GIF creator built using Node.Js and FFMPEG, using which you can search any Youtube video and create GIFs from it of desired duration.
+    tube2gif is a web-based Youtube to GIF creator built using Node.Js and FFMPEG, using which you can search any Youtube video and create GIFs of desired duration.
    
    <p>
     Demo - https://ytube2gif.herokuapp.com/
