@@ -25,9 +25,9 @@
   <p>
 </div>
 <h2 align="center">In Action</h2>
-
+<div align="center">
 <img src="https://cloud.githubusercontent.com/assets/8591801/22407995/50075f2e-e697-11e6-8691-1b768661f507.gif">
-
+</div>
 <h2 align="center">Install</h2>
 
 ####Pre-requisites
