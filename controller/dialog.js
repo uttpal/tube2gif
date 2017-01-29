@@ -1,7 +1,6 @@
-'use strict';
 
-module.exports = function search(req, res, next) {
 
+module.exports = function search(req, res) {
   const videoId = req.query.id;
-    res.render('dialog', { videoId: videoId });
+  res.render('dialog', { videoId });
 };
