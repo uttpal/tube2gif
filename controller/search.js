@@ -12,7 +12,7 @@ module.exports = function search(req, res, next) {
       order: 'viewCount',
       q: query,
       type: 'video',
-      key: ' AIzaSyCHN0IzD3Aj9eMY2b_XHwWJYnLWWUv41ao'
+      key: 'AIzaSyCHN0IzD3Aj9eMY2b_XHwWJYnLWWUv41ao'
     }
   };
 
