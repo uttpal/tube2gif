@@ -1,5 +1,6 @@
 'use strict';
 const request = require('request');
+const config = require('config');
 
 module.exports = function search(req, res, next) {
   const query = req.query.q;
@@ -12,7 +13,7 @@ module.exports = function search(req, res, next) {
       order: 'viewCount',
       q: query,
       type: 'video',
-      key: 'AIzaSyCHN0IzD3Aj9eMY2b_XHwWJYnLWWUv41ao'
+      key: config.get('YOUTUBE_API_KEY')
     }
   };
 
