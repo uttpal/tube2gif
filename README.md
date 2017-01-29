@@ -4,8 +4,8 @@
   </a>
   <br>
   <br>
-	<a href="https://img.shields.io/travis/USER/REPO.svg">
-		<img src="https://img.shields.io/travis/USER/REPO.svg">
+	<a href="https://img.shields.io/magnumci/ci/96ffb83fa700f069024921b0702e76ff.svg">
+		<img src="https://img.shields.io/magnumci/ci/96ffb83fa700f069024921b0702e76ff.svg">
 	</a>
 	<a href="https://img.shields.io/npm/v/npm.svg">
 		<img src="https://img.shields.io/npm/v/npm.svg">
@@ -19,12 +19,14 @@
   <h1>tube2gif</h1>
   <p>
     tube2gif is a web-based Youtube to GIF creator built using Node.Js and FFMPEG, using which you can search any Youtube video and create GIFs from it of desired duration.
+
+    Demo - https://ytube2gif.herokuapp.com/
   <p>
 </div>
-<h2 align="center">Demo</h2>
+<h2 align="center">In Action</h2>
 
 ```
-https://ytube2gif.herokuapp.com/
+<img src="https://cloud.githubusercontent.com/assets/8591801/22407995/50075f2e-e697-11e6-8691-1b768661f507.gif">
 ```
 
 <h2 align="center">Install</h2>
