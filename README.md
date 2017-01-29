@@ -4,17 +4,17 @@
   </a>
   <br>
   <br>
-	<a href="https://npmjs.com/package/webpack">
-		<img src="https://img.shields.io/npm/dm/webpack.svg">
+	<a href="https://img.shields.io/travis/USER/REPO.svg">
+		<img src="https://img.shields.io/travis/USER/REPO.svg">
 	</a>
-	<a href="https://opencollective.com/webpack#backer">
-		<img src="https://opencollective.com/webpack/backers/badge.svg">
+	<a href="https://img.shields.io/npm/v/npm.svg">
+		<img src="https://img.shields.io/npm/v/npm.svg">
 	</a>
-	<a href="https://opencollective.com/webpack#sponsors">
-		<img src="https://opencollective.com/webpack/sponsors/badge.svg">
+	<a href="https://img.shields.io/npm/l/express.svg">
+		<img src="https://img.shields.io/npm/l/express.svg">
 	</a>
-	<a href="https://gitter.im/webpack/webpack">
-		<img src="https://badges.gitter.im/webpack/webpack.svg">
+	<a href="https://img.shields.io/david/strongloop/express.svg">
+		<img src="https://img.shields.io/david/strongloop/express.svg">
 	</a>
   <h1>tube2gif</h1>
   <p>
@@ -33,9 +33,12 @@ https://ytube2gif.herokuapp.com/
 * Node.Js 6+
 * FFMPEG installed ([Ubuntu Installation Guide](http://tipsonubuntu.com/2016/11/02/install-ffmpeg-3-2-via-ppa-ubuntu-16-04))
 
+####Installation
 1. Clone Repository
 3. cd into dir && `npm install`
-4. `npm start`
+4. Obtain Youtube Api key ([Instructions](https://www.slickremix.com/docs/get-api-key-for-youtube/))
+5. Add obtained Youtube key to config/local.js or `export YOUTUBE_API_KEY=key`
+4. `npm start` && visit localhost:3000
 
 <h2 align="center">Heroku Install</h2>
 
